@@ -1,30 +1,31 @@
-# CONT8
+# demo-vue
 
-## This is the Master branch, please develop on your own branch and send pull request before merge or rebase
+default fronend port:8080
+default backend port:8088
 
-### Testing scipt:
+## Build Setup
 
-#### Frontend: 
+``` bash
+# install dependencies
+npm install
 
-npm start details in package.json
+# serve with hot reload at localhost:8080
+npm run dev
 
-#### Default testing account: 
+# build for production with minification
+npm run build
 
-username: zhangsan,
+# build for production and view the bundle analyzer report
+npm run build --report
 
-password:123456
+# run unit tests
+npm run unit
 
-## Postman:
+# run e2e tests
+npm run e2e
 
-### /POST{host}:8088/login:
+# run all tests
+npm test
 ```
-{
-    "loginName":"zhangsan",
-    "password":"123456"
-}
-```
 
-### Default database: 
-
-tb_user.sql
-tb_table.sql
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
