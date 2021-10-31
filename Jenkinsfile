@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Pull') {
             steps {
-                git credentialsId: 'Crazyorchid', url: 'https://github.com/Crazyorchid/SEP-CONT8.git'
+                git credentialsId: 'Crazyorchid', url: 'https://github.com/Crazyorchid/SEP-CONT8/tree/development'
             }
         }
 
