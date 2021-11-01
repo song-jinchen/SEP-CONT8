@@ -61,7 +61,7 @@ export default {
       },
       rule: {
         username: [
-          {required: true, message: 'please enter your username', trigger: 'blur' },
+          {required: true, message: 'please enter your username here', trigger: 'blur' },
           { validator: validateUsername, trigger: 'blur' }
         ],
         password: [
