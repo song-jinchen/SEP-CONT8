@@ -65,7 +65,7 @@ export default {
           { validator: validateUsername, trigger: 'blur' }
         ],
         password: [
-          {required: true, message: 'please enter your password', trigger: 'blur' },
+          {required: true, message: 'please enter your password here', trigger: 'blur' },
           { validator: validatePassword, trigger: 'blur' }]
       },
       passwordType: 'password',
