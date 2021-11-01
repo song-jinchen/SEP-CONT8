@@ -21,8 +21,13 @@ module.exports = {
     },
 
     // Various Dev Server settings
+<<<<<<< Updated upstream
     host: 'localhost', // can be overwritten by process.env.HOST
     port: 8080, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
+=======
+    host: '18.117.12.236', // can be overwritten by process.env.HOST
+    port: 8081, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
+>>>>>>> Stashed changes
     autoOpenBrowser: false,
     errorOverlay: true,
     notifyOnErrors: true,
