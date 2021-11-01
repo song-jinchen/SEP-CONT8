@@ -47,6 +47,7 @@ export default {
         { name: "/index", title: "Home", icon: "el-icon-s-home" },
         { name: "/user", title: "Users",icon:"el-icon-s-custom" },
         { name: "/book", title: "Books",icon:"el-icon-collection" },
+        { name: "/hello", title: "Hello",icon:"el-icon-collection" },
       ],
     };
   },
